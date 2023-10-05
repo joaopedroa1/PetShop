@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/projeto_inicial/admin/assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="/projeto_inicial/admin/assets/css/base/base.css">
+    <link rel="stylesheet" href="/projeto_inicial/admin/assets/css/componentes/lista.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/projeto_inicial/admin/assets/css/componentes/lista.css">
+    <link rel="stylesheet" href="/projeto_inicial/admin/assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="/projeto_inicial/admin/assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="/projeto_inicial/admin/assets/css/componentes/inputs.css">
+    <link rel="stylesheet" href="/projeto_inicial/admin/assets/css/inputedicao.css">
+    <link rel="stylesheet" href="/projeto_inicial/admin/assets/css/edicao.css">
+    <title>Cadastro de produtos</title>
+</head>
+<body>
+    <header class="cabecalho container">
+        <img src="../assets/img/welcome little one!.png" alt="logo" class="cabecalho__logo">
+        <nav>
+            <ul class="cabecalho__lista-navegacao">
+                <li class="cabecalho__link"><a href="#">Dashboard</a></li>
+                <li class="cabecalho__link"><a href="#">Produtos</a></li>
+                <li class="cabecalho__link"><a href="listaClientes.html">Clientes </a></li>
+                <li class="cabecalho__link"><a href="#">Pets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form class="formProd" data-formulario>
+        <div class="cartao">
+            <h1 class="cartao__titulo cup">Cadastrar um produto</h1>
+            <input type="text" placeholder="Nome" class = "fonteGeral" data-nomeProduto required>
+            <div class="linha"></div>
+            <input type="number" placeholder="Preço" class = "fonteGeral" data-preco required>
+            <div class="linha"></div>
+            <input type="text" placeholder="Descrição" class = "fonteGeral" data-desc required>
+            <div class="linha"></div>
+            <button type="submit" class="botao botao_cadastro">Cadastrar produto</button>
+        </div> 
+    </form>
+    <script type="module" src="../controller/cadastraProdutos-controller.js"></script>
+</body>
+</html>

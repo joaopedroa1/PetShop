@@ -1,0 +1,56 @@
+.botao{
+    display: block;
+    background-color: var(--cor-primaria);
+    border-radius: 7px;
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 20rem;
+    padding: 1.125rem;
+    box-sizing: border-box;
+    color: var(--cor-contraste-claro);
+    font-size: var(--fonte-tamanho-botao);
+    align-self: center;
+    text-align: center;
+}
+
+.botao-simples--adicionar{
+    color: var(--cor-primaria);
+}
+
+.botao-simples--excluir{
+    color: var(--cor-aviso);
+}
+
+.botao-simples-editar{
+    color: var(--cor-sucesso);
+}
+
+.sucesso{
+    width: 100px;
+    height: 100px;
+}
+
+.erro{
+    width: 100px;
+    height: 100px;
+}
+
+.tabela__botoes-controle{
+    margin-left: 196px;
+    display: flex;
+    align-items: center;
+}
+
+.td{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.botao-simples{
+    margin-right: 20px;
+}
+
+tbody{
+    margin-top: 4px;
+}
